@@ -7,10 +7,6 @@ spec:
     app: ecsdemo-nodejs
   type: ClusterIP
   ports:
-    - port: 80           # The port that the service will expose for HTTP
-      targetPort: 3000   # The port on the pod that the service will forward to
-      protocol: TCP
-      name: http         # Name for the HTTP port
     - port: 443          # The port that the service will expose for HTTPS
       targetPort: 3000   # The port on the pod that the service will forward to
       protocol: TCP
