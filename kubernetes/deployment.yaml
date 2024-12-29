@@ -21,7 +21,7 @@ spec:
         app: ecsdemo-nodejs
     spec:
       containers:
-      - image: brentley/ecsdemo-nodejs:latest
+      - image: 287559100945.dkr.ecr.ap-south-1.amazonaws.com/aimlops-leafguard-app:sample
         imagePullPolicy: Always
         name: ecsdemo-nodejs
         ports:
