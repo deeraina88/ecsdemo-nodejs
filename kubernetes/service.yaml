@@ -10,5 +10,4 @@ spec:
     - port: 443          # The port that the service will expose for HTTPS
       targetPort: 3000   # The port on the pod that the service will forward to
       protocol: TCP
-      name: https
 
